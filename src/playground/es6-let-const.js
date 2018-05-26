@@ -1,5 +1,5 @@
-var nameVar = 'Jaini';
-var nameVar = 'Mela';
+let nameVar = 'Jaini';
+nameVar = 'Mela';
 console.log('nameVar', nameVar);
 
 
@@ -17,3 +17,15 @@ const getPetName = () => {
 
 const petName = getPetName();
 console.log(petName);
+
+//Block scoping
+
+const fullName = 'Jaini Guevara';
+let firstName;
+
+if (fullName) {
+    firstName = fullName.split(' ')[0];
+    console.log(firstName);
+}
+
+console.log(firstName);
