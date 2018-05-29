@@ -1,3 +1,9 @@
+class toggleVisibility extends React.Component() {
+    render() {
+        
+    }
+}
+
 const app = {
     title: 'Visibility toggle',
     details: 'Hello world!',
