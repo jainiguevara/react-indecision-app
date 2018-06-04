@@ -1,31 +1,22 @@
-let nameVar = 'Jaini';
-nameVar = 'Mela';
+var nameVar = 'Andrew';
+var nameVar = 'Mike';
 console.log('nameVar', nameVar);
 
+let nameLet = 'Jen';
+nameLet = 'Julie';
+console.log('nameLet', nameLet);
 
-let nameLet = 'Red';
-nameLet = 'Jade'
-console.log('nameLet',nameLet)
-
-const nameConst = 'Juliana';
+const nameConst = 'Frank';
 console.log('nameConst', nameConst);
 
-const getPetName = () => {
-    const petName = 'Hal';
-    return 
-};
+// Block scoping
 
-const petName = getPetName();
-console.log(petName);
-
-//Block scoping
-
-const fullName = 'Jaini Guevara';
+const fullName = 'Jen Mead';
 let firstName;
 
 if (fullName) {
-    firstName = fullName.split(' ')[0];
-    console.log(firstName);
+  firstName = fullName.split(' ')[0];
+  console.log(firstName);
 }
 
 console.log(firstName);
